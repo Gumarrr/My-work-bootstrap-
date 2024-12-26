@@ -548,12 +548,13 @@ body {
 }
 
 .line__purple1 {
-  left: 40%;
   top: 10%;
-
+  right: 0;
+  z-index: -1 !important;
 }
 
 .line__purple2 {
-  right: 25%;
   top: -47%;
+  left: 0;
+  z-index: -1 !important;
 }

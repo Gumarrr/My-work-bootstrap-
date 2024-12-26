@@ -1,15 +1,13 @@
 @media (prefers-color-scheme: dark) {
-  :root{
+  :root {
     --primary-background: #151437;
-    --primary-text-color:#ffffff;
-    --footer-link-color:#ffffff;
-    }
-    .navbar-toggler{
-      background: var(--btn-backround);
-    }
+    --primary-text-color: #ffffff;
+    --footer-link-color: #ffffff;
+  }
+  .navbar-toggler {
+    background: var(--btn-backround);
+  }
 }
-
-
 
 @media (max-width: 1450px) {
   .about__text {
@@ -18,6 +16,9 @@
 
   .about__content {
     padding: 30px;
+  }
+  .line__purple1 {
+    left: 40%;
   }
 }
 
@@ -35,39 +36,57 @@
     width: 78%;
     margin: 0 auto;
   }
-  .accordion__body{
+  .accordion__body {
     padding: 20px;
   }
 
-  .works__item{
+  .works__item {
     width: 50%;
   }
   .works__item:first-child .works__btn {
     border-radius: 8px 0 0 0;
   }
-  .works__item:nth-child(2) .works__btn{
+  .works__item:nth-child(2) .works__btn {
     border-radius: 0 8px 0 0;
   }
-  .works__item:nth-child(5) .works__btn{
-    border-radius: 0 0  0 8px;
+  .works__item:nth-child(5) .works__btn {
+    border-radius: 0 0 0 8px;
   }
   .works__item:last-child .works__btn {
-    border-radius:0 0 8px 0 ;
+    border-radius: 0 0 8px 0;
   }
 
   .works__list,
-  .tab-content{
+  .tab-content {
     padding: 0;
   }
 
-  .tab-content{
+  .tab-content {
     margin-top: 20px;
   }
 
-  .footer{
+  .footer {
     margin: 50px 0;
   }
+  .fourcorner3 {
+    left: 90%;
+  }
 
+  .line__purple1 img {
+    width: 100%;
+  }
+
+  .line__purple2 img {
+    width: 50%;
+  }
+
+  .line__purple1 {
+    left: 40%;
+    top: 38%;
+  }
+  .line__purple2 {
+    top: 60%;
+  }
 }
 
 @media (max-width: 575px) {
@@ -100,23 +119,49 @@
   }
   .works__img,
   .works__title,
-  .works__text{
+  .works__text {
     margin: 0 0 10px !important;
   }
 
-  .works__link{
+  .works__link {
     margin: 0;
   }
 
-  .works__btn{
+  .works__btn {
     height: 50px;
     padding: 0 20px;
   }
+  .fourcorner1 {
+    left: -1%;
+    top: 8%;
+  }
+  .fourcorner3 {
+    top: 10%;
+  }
+  .line__purple2 {
+    top: 69%;
+  }
+  .line__purple2 img {
+    width: 80%;
+  }
+
+  .line__purple1 {
+    left: 18%;
+    top: 33%;
+  }
 }
 
-@media (max-width: 450) {
+@media (max-width: 450px) {
   .intro {
     margin: 20px 0 50px;
+  }
+
+  .intro__item img {
+    width: 40px;
+  }
+
+  .about__text {
+    padding: 15px;
   }
 
   .about__content {
@@ -132,14 +177,8 @@
   .about__text {
     padding: 15px;
   }
-}
-
-@media (max-width: 450) {
-  .intro__item img {
-    width: 40px;
-  }
-
-  .about__text {
-    padding: 15px;
+  .line__purple1, 
+  .line__purple2  {
+    display: none;
   }
 }
