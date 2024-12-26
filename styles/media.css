@@ -1,0 +1,145 @@
+@media (prefers-color-scheme: dark) {
+  :root{
+    --primary-background: #151437;
+    --primary-text-color:#ffffff;
+    --footer-link-color:#ffffff;
+    }
+    .navbar-toggler{
+      background: var(--btn-backround);
+    }
+}
+
+
+
+@media (max-width: 1450px) {
+  .about__text {
+    left: 0;
+  }
+
+  .about__content {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .header__link,
+  .header__btn {
+    margin: 0;
+  }
+
+  .accordion {
+    order: 2;
+  }
+  .c__img {
+    padding: 0 0 30px;
+    width: 78%;
+    margin: 0 auto;
+  }
+  .accordion__body{
+    padding: 20px;
+  }
+
+  .works__item{
+    width: 50%;
+  }
+  .works__item:first-child .works__btn {
+    border-radius: 8px 0 0 0;
+  }
+  .works__item:nth-child(2) .works__btn{
+    border-radius: 0 8px 0 0;
+  }
+  .works__item:nth-child(5) .works__btn{
+    border-radius: 0 0  0 8px;
+  }
+  .works__item:last-child .works__btn {
+    border-radius:0 0 8px 0 ;
+  }
+
+  .works__list,
+  .tab-content{
+    padding: 0;
+  }
+
+  .tab-content{
+    margin-top: 20px;
+  }
+
+  .footer{
+    margin: 50px 0;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .intro__item img {
+    width: 60px;
+  }
+
+  .intro__link {
+    width: 250px;
+  }
+
+  .intro__img {
+    height: 300px;
+  }
+
+  .carousel-indicators {
+    margin-top: 20px;
+  }
+  .intro__item img {
+    width: 40px;
+  }
+  .about__img {
+    width: 300px !important;
+    display: flex;
+    margin: 0 auto;
+  }
+  .about__text {
+    left: 10%;
+    padding: 20px;
+  }
+  .works__img,
+  .works__title,
+  .works__text{
+    margin: 0 0 10px !important;
+  }
+
+  .works__link{
+    margin: 0;
+  }
+
+  .works__btn{
+    height: 50px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 450) {
+  .intro {
+    margin: 20px 0 50px;
+  }
+
+  .about__content {
+    padding: 25px;
+  }
+  .about__descr {
+    margin-bottom: 25px;
+  }
+  .about__link {
+    margin: 0;
+    padding: 10px 20px;
+  }
+  .about__text {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 450) {
+  .intro__item img {
+    width: 40px;
+  }
+
+  .about__text {
+    padding: 15px;
+  }
+}
