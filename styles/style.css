@@ -414,10 +414,9 @@ body {
   overflow-x: hidden;
 }
 
-.fourcorner__body2{
+.fourcorner__body2 {
   position: absolute;
   animation: fourcorner2 25s linear infinite alternate;
-
 }
 
 @keyframes fourcorner2 {
@@ -452,12 +451,9 @@ body {
   }
 }
 
-
-
-.fourcorner__body{
+.fourcorner__body {
   position: absolute;
   animation: fourcorner 20s linear infinite alternate;
-
 }
 
 @keyframes fourcorner {
@@ -491,7 +487,6 @@ body {
     transform: translateX(-100%);
   }
 }
-
 
 .round {
   position: absolute;
