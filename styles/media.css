@@ -81,9 +81,9 @@
   }
 
   .line__purple1 {
-    left: 40%;
-    top: 38%;
-  }
+    left: 0%;
+    top: 28%;
+    }
   .line__purple2 {
     top: 60%;
   }
@@ -138,16 +138,9 @@
   .fourcorner3 {
     top: 10%;
   }
-  .line__purple2 {
-    top: 69%;
-  }
-  .line__purple2 img {
-    width: 80%;
-  }
-
-  .line__purple1 {
-    left: 18%;
-    top: 33%;
+  .line__purple1, 
+  .line__purple2  {
+    display: none;
   }
 }
 
@@ -176,9 +169,5 @@
   }
   .about__text {
     padding: 15px;
-  }
-  .line__purple1, 
-  .line__purple2  {
-    display: none;
   }
 }
